@@ -1,16 +1,6 @@
 {
   "resources":{
   "includes":[{
-    "pattern":"\\QMETA-INF/javamail.charset.map\\E"
-  }, {
-    "pattern":"\\QMETA-INF/javamail.default.address.map\\E"
-  }, {
-    "pattern":"\\QMETA-INF/javamail.default.providers\\E"
-  }, {
-    "pattern":"\\QMETA-INF/mailcap.default\\E"
-  }, {
-    "pattern":"\\QMETA-INF/mailcap\\E"
-  }, {
     "pattern":"\\Qclojure/core.clj\\E"
   }, {
     "pattern":"\\Qclojure/core/protocols.clj\\E"
@@ -84,10 +74,6 @@
     "pattern":"\\Qemail_test.clj\\E"
   }, {
     "pattern":"\\Qemail_test__init.class\\E"
-  }, {
-    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt67b/uprops.icu\\E"
-  }, {
-    "pattern":"java.base:\\Qsun/net/idn/uidna.spp\\E"
   }]},
   "bundles":[]
 }
