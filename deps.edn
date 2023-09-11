@@ -1,6 +1,4 @@
 {:paths ["src"]
- :deps {org.clojure/clojure {:mvn/version "1.10.3"} 
-        org.apache.commons/commons-email {:mvn/version "1.5"}}
  :aliases {:uberjar {:extra-deps
                      {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
                      :exec-fn hf.depstar/uberjar

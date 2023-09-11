@@ -291,18 +291,6 @@
   "name":"clojure.walk__init"
 },
 {
-  "name":"com.sun.mail.handlers.multipart_mixed",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.mail.handlers.text_html",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"com.sun.mail.smtp.SMTPTransport",
-  "methods":[{"name":"<init>","parameterTypes":["javax.mail.Session","javax.mail.URLName"] }]
-},
-{
   "name":"email_test__init"
 },
 {
@@ -408,10 +396,6 @@
   "name":"java.lang.String",
   "queryAllPublicMethods":true,
   "methods":[{"name":"contains","parameterTypes":["java.lang.CharSequence"] }]
-},
-{
-  "name":"java.lang.Thread",
-  "fields":[{"name":"threadLocalRandomProbe"}]
 },
 {
   "name":"java.lang.ThreadLocal"
@@ -542,10 +526,6 @@
   "fields":[{"name":"value"}]
 },
 {
-  "name":"java.util.concurrent.atomic.Striped64",
-  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
-},
-{
   "name":"java.util.concurrent.locks.ReentrantLock"
 },
 {
@@ -553,11 +533,5 @@
 },
 {
   "name":"java.util.regex.Pattern"
-},
-{
-  "name":"javax.activation.MailcapCommandMap"
-},
-{
-  "name":"org.apache.commons.mail.HtmlEmail"
 }
 ]
