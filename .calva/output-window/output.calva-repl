@@ -1,0 +1,68 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Reading port file: file:///Users/albert.dorfman%40owl.co/Documents/emails/.nrepl-port ...
+; No nrepl port file found.
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/albert.dorfman@owl.co/Documents/emails ; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M:uberjar -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:65157 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:445).
+; org.apache.commons.mail
+clj꞉email-test꞉> 
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:445).
+; org.apache.commons.mail
+clj꞉email-test꞉> 
+nil
+clj꞉email-test«꞉> 
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:445).
+; org.apache.commons.mail
+clj꞉email-test꞉> 
+nil
+clj꞉email-test꞉> 
+; Syntax error macroexpanding clojure.core/ns at (src/email_test.clj:1:1).
+; ((:gen-class (:import org.apache.commons.mail HtmlEmail))) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+clj꞉email-test꞉> 
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:445).
+; org.apache.commons.mail
+clj꞉email-test꞉> 
+nil
+clj꞉email-test꞉> 
+#'email-test/-main
+clj꞉email-test꞉> 
+#'email-test/-main
+clj꞉email-test꞉> 
+nil
+clj꞉email-test꞉> 
+#'email-test/-main
+clj꞉email-test꞉> 
+email-test/-main
+#function[email-test/-main]
+clj꞉email-test꞉> 
+(email-test/-main)
+Hello World!
+"<41151622.1.1694132040081@[192.168.2.189]>"
+clj꞉email-test꞉> 
+; nREPL Connection was closed

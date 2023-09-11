@@ -1,0 +1,17 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"} 
+        org.apache.commons/commons-email {:mvn/version "1.5"}}
+ :aliases {:uberjar {:extra-deps
+                     {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
+                     :exec-fn hf.depstar/uberjar
+                     :exec-args {:jar "email.jar"
+                                 :aot true
+                                 :main-class email-test}}}}
+
+
+
+;; :aot true - Enables Ahead-of-Time (AOT) compilation. This is necessary to compile your Clojure code to Java bytecode, which can then be compiled to a native image by GraalVM.
+
+;; :main-class "hello_world" - Specifies the main class for the uberjar, which should match the namespace where your -main function is defined.
+
+;; :jar hello-world.jar - The name of the uberjar file to be created.
