@@ -1,1 +1,1 @@
-test:src:/home/albert.dorfman/.m2/repository/org/clojure/clojure/1.10.3/clojure-1.10.3.jar:/home/albert.dorfman/.m2/repository/org/clojure/core.specs.alpha/0.2.56/core.specs.alpha-0.2.56.jar:/home/albert.dorfman/.m2/repository/org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.jar
+test:src:/home/albert.dorfman/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/home/albert.dorfman/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/home/albert.dorfman/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar
